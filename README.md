@@ -27,5 +27,5 @@ docker exec -it expo-fastlane …
 
 ### Why?
 
-[We](github.com/inthepocket) needed a way to deploy our Expo RN app using Bitbucket Pipelines.
+[We](https://github.com/inthepocket) needed a way to deploy our Expo RN app using Bitbucket Pipelines.
 Bitbucket pipelines has very limited support for RN projects, so i created this image to run a bash script in which publishes & builds the app through `exp` and then downloads the binary .ipa file to use the fastlane delivery api to send it to iTunes Connect.
